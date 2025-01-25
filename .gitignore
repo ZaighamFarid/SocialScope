@@ -22,6 +22,7 @@ iOS-App/.swiftpm/
 iOS-App/Package.resolved
 
 # Python
+venv/
 Backend/venv/
 Backend/__pycache__/
 Backend/*.py[cod]
