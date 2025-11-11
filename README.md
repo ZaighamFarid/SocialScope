@@ -71,20 +71,24 @@ Read the full summary here: [PROFESSIONAL_SUMMARY.md](PROFESSIONAL_SUMMARY.md)
 ### Video Demo
 
 <p align="center">
-  <video src="assets/demo.mov" controls playsinline muted loop poster="assets/demo.mov.png" width="100%"></video>
+  <video controls playsinline muted loop poster="assets/demo.mp4.png" width="100%">
+    <source src="assets/demo.mp4" type="video/mp4" />
+    <source src="assets/demo.mov" type="video/quicktime" />
+  </video>
 </p>
 
-<!-- GitHub fallback: clickable poster image linking to the .mov -->
+<!-- GitHub fallback: clickable poster image linking to the MP4 -->
 <p align="center">
-  <a href="assets/demo.mov">
-    <img src="assets/demo.mov.png" alt="Watch the Social Scope video demo" width="80%" />
+  <a href="assets/demo.mp4">
+    <img src="assets/demo.mp4.png" alt="Watch the Social Scope video demo (MP4)" width="80%" />
   </a>
   <br/>
   <sub>Click the image if inline video does not play on GitHub.</sub>
 </p>
 
 <p align="center">
-  <a href="assets/demo.mov">Download the screen recording (.mov)</a>
+  <a href="assets/demo.mp4">Download compressed MP4 (recommended)</a> ·
+  <a href="assets/demo.mov">Original .mov</a>
 </p>
 
 ---
