@@ -1,0 +1,59 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Xcode
+iOS-App/build/
+iOS-App/DerivedData/
+iOS-App/*.pbxuser
+iOS-App/*.mode1v3
+iOS-App/*.mode2v3
+iOS-App/*.perspectivev3
+iOS-App/xcuserdata/
+iOS-App/*.xccheckout
+iOS-App/*.moved-aside
+iOS-App/*.xcuserstate
+iOS-App/*.xcscmblueprint
+
+# Swift Package Manager
+iOS-App/.build/
+iOS-App/.swiftpm/
+iOS-App/Package.resolved
+
+# Python
+Backend/venv/
+Backend/__pycache__/
+Backend/*.py[cod]
+Backend/*$py.class
+Backend/*.so
+Backend/.Python
+Backend/env/
+Backend/ENV/
+Backend/.venv
+Backend/*.egg-info/
+Backend/dist/
+Backend/build/
+Backend/.eggs/
+Backend/.pytest_cache/
+Backend/.coverage
+Backend/coverage.xml
+Backend/*.cover
+Backend/.hypothesis/
+
+# Environment variables
+Backend/.env
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# Test artifacts
+*.test
