@@ -26,7 +26,6 @@ Social Scope is a modern iOS app that uses artificial intelligence to analyze so
 
 Social Scope is an iOS + FastAPI project that uses OpenAI to turn any social post into clear insights and ready-to-post, on‑brand replies. It analyzes the content, extracts sentiment and topics, and produces human‑sounding comments in four tones (Professional, Friendly, Funny, Supportive). The app features a polished SwiftUI interface with glassmorphism, haptics, and an offline demo mode for instant showcasing—backed by a clean, tested, and CI/CD‑enabled Python API.
 
-Read the full summary here: [PROFESSIONAL_SUMMARY.md](PROFESSIONAL_SUMMARY.md)
 
 ---
 
@@ -68,27 +67,14 @@ Read the full summary here: [PROFESSIONAL_SUMMARY.md](PROFESSIONAL_SUMMARY.md)
 }
 ```
 
-### Video Demo
+### 🎬 Video Demo
 
-<p align="center">
-  <video controls playsinline muted loop poster="assets/demo.mp4.png" width="100%">
-    <source src="assets/demo.mp4" type="video/mp4" />
-    <source src="assets/demo.mov" type="video/quicktime" />
-  </video>
-</p>
-
-<!-- GitHub fallback: clickable poster image linking to the MP4 -->
 <p align="center">
   <a href="assets/demo.mp4">
-    <img src="assets/demo.mp4.png" alt="Watch the Social Scope video demo (MP4)" width="80%" />
+    <img src="assets/demo-thumbnail.png" alt="Watch the demo video" width="80%">
   </a>
-  <br/>
-  <sub>Click the image if inline video does not play on GitHub.</sub>
-</p>
-
-<p align="center">
-  <a href="assets/demo.mp4">Download compressed MP4 (recommended)</a> ·
-  <a href="assets/demo.mov">Original .mov</a>
+  <br>
+  <em>Click the image to watch the demo video</em>
 </p>
 
 ---
@@ -109,18 +95,18 @@ Read the full summary here: [PROFESSIONAL_SUMMARY.md](PROFESSIONAL_SUMMARY.md)
 
 ```
 ┌─────────────────────────────────────────────────────┐
-│                   iOS App (SwiftUI)                  │
-│  ┌────────────┐  ┌───────────┐  ┌────────────────┐ │
-│  │   Views    │←→│ ViewModels│←→│   Services     │ │
-│  └────────────┘  └───────────┘  └────────────────┘ │
+│                   iOS App (SwiftUI)                 │
+│  ┌────────────┐  ┌───────────┐  ┌────────────────┐  │
+│  │   Views    │←→│ ViewModels│←→│   Services     │  │
+│  └────────────┘  └───────────┘  └────────────────┘  │
 └────────────────────────┬────────────────────────────┘
                          │ HTTP/REST
 ┌────────────────────────▼────────────────────────────┐
-│              FastAPI Backend (Python)                │
-│  ┌────────────┐  ┌───────────┐  ┌────────────────┐ │
-│  │   Router   │→ │  Services │→ │  OpenAI API    │ │
-│  └────────────┘  └───────────┘  └────────────────┘ │
-└──────────────────────────────────────────────────────┘
+│              FastAPI Backend (Python)               │
+│  ┌────────────┐  ┌───────────┐  ┌────────────────┐  │
+│  │   Router   │→ │  Services │→ │  OpenAI API    │  │
+│  └────────────┘  └───────────┘  └────────────────┘  │
+└─────────────────────────────────────────────────────┘
 ```
 
 **Frontend:** SwiftUI + MVVM + Combine  
@@ -148,7 +134,7 @@ Read the full summary here: [PROFESSIONAL_SUMMARY.md](PROFESSIONAL_SUMMARY.md)
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/SocialScope.git
+git clone https://github.com/ZaighamFarid/SocialScope.git
 cd SocialScope
 ```
 
@@ -355,10 +341,6 @@ SocialScope/
 
 ---
 
-## 🤝 Contributing
-
-We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
-
 ### Development Workflow
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -405,8 +387,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👨‍💻 Author
 
 **Your Name**  
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your Name](https://linkedin.com/in/yourprofile)
+- GitHub: [Zaigham Farid](https://github.com/ZaighamFarid)
+- LinkedIn: [Zaigham Farid](https://linkedin.com/in/zaigham-farid)
 
 ---
 
@@ -435,5 +417,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 If you find this project useful, please consider giving it a ⭐️!
 
 ---
-
-<p align="center">Made with ❤️ and AI</p>
