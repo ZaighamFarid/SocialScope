@@ -69,9 +69,9 @@ Social Scope is an iOS + FastAPI project that uses OpenAI to turn any social pos
 
 ### 🎬 Video Demo
 
-<p align="center">
+<p align="left">
   <a href="assets/demo.mp4">
-    <img src="assets/demo-thumbnail.png" alt="Watch the demo video" width="80%">
+    <img src="assets/demo-thumbnail.png" alt="Watch the demo video" width="250" style="border-radius:20px; box-shadow:0 4px 20px rgba(0,0,0,0.2);">
   </a>
   <br>
   <em>Click the image to watch the demo video</em>
